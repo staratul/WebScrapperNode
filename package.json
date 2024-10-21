@@ -1,0 +1,25 @@
+{
+  "name": "skyscanner-scraper",
+  "version": "1.0.0",
+  "description": "A scraper for searching flights on Skyscanner using Puppeteer.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node searchFlights.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon searchFlights.js"
+  },
+  "keywords": [
+    "scraper",
+    "puppeteer",
+    "skyscanner",
+    "flights"
+  ],
+  "author": "Your Name", 
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^23.6.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "nodemon": "^2.0.22"
+  }
+}
